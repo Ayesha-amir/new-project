@@ -1,0 +1,245 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+/* font-family: 'Lobster',cursive; */
+
+/* font-family: 'Montserrat', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height:59px;
+}
+
+/* navigation bar: logo and image */
+#logo{
+
+    margin: 10px 34px;
+
+}
+#logo img{
+    margin: 3px 6px;
+    height: 100px;
+
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+/*navigation bar: list styling */
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"" ;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+
+
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black ;
+    background-color: white;
+}
+/* Home Section */
+#home{
+    display:
+    flex;
+    height: 510px;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content:"" ;
+    background:url(../img/3D_Animation_Style_A_vintage_feather_quill_pen_with_magenta_in_0\ \(1\).jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 644px;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.89;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* services section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin:25px 45px;
+    border-radius: 28px;
+    background-color: #f2f2f2; 
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+#services .box img{
+    display: block;
+   
+    margin: auto;
+    
+    
+}
+#services .box p{
+}
+#services{}
+#services{}
+/* clients section */
+#me{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #clients img{
+    height:100px
+
+} */
+.text{
+    padding: 34px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.3rem;
+}
+#AboutUs{
+    
+    position: relative;
+    
+    
+    
+  
+ 
+}
+
+#AboutUs::before{
+    content: "";
+    position: absolute;
+    background: url(../img/3D_Animation_Style_A_highquality_image_of_a_sleek_magenta_foun_1.jpg) no-repeat center center/cover ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+/* contact section */
+#contact{
+    position: relative;
+    
+    
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    background: url(../img/icons-7752534_1280-removebg-preview.png)no-repeat center center/cover;
+    
+
+
+
+}
+#contactbox{
+    padding-bottom: 34px;
+}
+ #contactbox a{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* text-decoration: none; */
+    font-weight: bold;
+    color: black;
+ }  
+footer{
+    background: black;
+    color: white;
+    padding:9px 20px ;
+
+}
+
+
+/* utility classes */
+.secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+
+}
+.tertiary{
+    font-size: 1.6rem;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.primary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:#fcae1e ;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
